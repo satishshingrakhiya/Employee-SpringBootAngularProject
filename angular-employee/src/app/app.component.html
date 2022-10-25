@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class="navbar-nav">
+        <li class="navbar-item">
+            <a routerLink="employees" routerLinkAtive="active" class="nav-link">Employee List</a>
+        </li>
+        <li class="navbar-item">
+            <a routerLink="create-employee" routerLinkAtive="active" class="nav-link">Add Employee</a>
+        </li>
+    </ul>
+</nav>
+<h1 class="text-center"> {{title}}</h1>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+<div style="clear: both; height: 60px;"></div>
+<footer class="footer" style="position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+color: white;
+text-align: center;
+height: auto;">
+    <div class="container">
+        <span class="center"> All Rights Reserved 2022 @satishshingrakhiya</span>
+    </div>
+</footer>
