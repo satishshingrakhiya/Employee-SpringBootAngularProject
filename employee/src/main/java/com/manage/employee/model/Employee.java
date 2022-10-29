@@ -1,7 +1,10 @@
 package com.manage.employee.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
+@Data
 @Entity
 @Table(name = "employees")
 public class Employee {
@@ -16,7 +19,7 @@ public class Employee {
     @Column(name = "email_id")
     private String emailId;
 
-    public Employee() {
+/*    public Employee() {
     }
 
     public Employee(String firstName, String lastName, String emailId) {
@@ -55,5 +58,5 @@ public class Employee {
 
     public void setEmailId(String emailId) {
         this.emailId = emailId;
-    }
+    } */
 }
