@@ -19,4 +19,4 @@ This is Spring Boot Angular Full Stack Application which presents basic CRUD Ope
 1. You will land on employee list page which should be empty if users not added.
 2. Go to 'Add Employee' and add Employee by Entering required details (Create).
 3. You will be redirected to 'Employee List' tab where you can see added employee (Read).
-4. You have actions tab in that list where we can View(Read by ID), Modify (Update) and Delete employee. 
+4. You have actions tab in that list where you can View(Read by ID), Modify (Update) and Delete employee. 
